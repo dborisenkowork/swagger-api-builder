@@ -1,0 +1,8 @@
+swagger: '2.0'
+basePath: /
+info:
+  version: 1.0.0
+  title: Demo API
+tags:
+  - name: demo
+    description: DEMO API

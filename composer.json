@@ -1,0 +1,31 @@
+{
+  "type": "library",
+  "name": "transportir/swagger-api-builder",
+  "description": "Swagger API Builder with Symfony2 Integration",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Dmitrii Borisenko",
+      "email": "borisenko@transportir.com"
+    }
+  ],
+  "keywords": [
+    "transportir", "swagger"
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "symfony/yaml": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Transportir\\SwaggerAPIBuilder\\": "src/Transportir/SwaggerAPIBuilder"
+    }
+  },
+  "support": {
+    "email": "dborisenkowork@gmail.com"
+  }
+}

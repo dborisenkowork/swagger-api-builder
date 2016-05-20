@@ -1,0 +1,29 @@
+{
+  "/demo/api/": {
+    "get": {
+      "tags": [
+        "demo"
+      ],
+      "description": "Demo API",
+      "responses": {
+        "200": {
+          "schema": {
+            "required": [
+              "success",
+              "entity"
+            ],
+            "properties": {
+              "success": {
+                "type": "boolean",
+                "description": "Success"
+              },
+              "entity": {
+                "$ref": "#/definitions/Demo"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+Demo:
+  required:
+    - id
+  properties:
+    id:
+      type: number
+      description: ID
