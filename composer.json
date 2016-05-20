@@ -27,5 +27,10 @@
   },
   "support": {
     "email": "dborisenkowork@gmail.com"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
   }
 }
