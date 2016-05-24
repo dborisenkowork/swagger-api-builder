@@ -1,17 +1,6 @@
 {
-  "type": "package",
   "name": "transportir/swagger-api-builder",
   "description": "Swagger API Builder with Symfony2 Integration",
-  "minimum-stability": "dev",
-  "package": {
-    "name": "transportir/swagger-api-builder",
-    "version":"dev-master",
-    "source": {
-      "url": "https://github.com/dborisenkowork/swagger-api-builder.git",
-      "type": "git",
-      "reference":"dev-master"
-    }
-  },
   "license": "proprietary",
   "authors": [
     {
