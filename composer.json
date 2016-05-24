@@ -2,7 +2,7 @@
   "type": "library",
   "name": "transportir/swagger-api-builder",
   "description": "Swagger API Builder with Symfony2 Integration",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "proprietary",
   "authors": [
     {
@@ -27,5 +27,10 @@
   },
   "support": {
     "email": "dborisenkowork@gmail.com"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0"
+    }
   }
 }
