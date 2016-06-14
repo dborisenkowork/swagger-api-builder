@@ -60,7 +60,7 @@ class FileList
 class Files
 {
     /** @var string[] */
-    private $files;
+    private $files = [];
 
     public function addFile($file) {
         if(!$this->hasFile($file)) {

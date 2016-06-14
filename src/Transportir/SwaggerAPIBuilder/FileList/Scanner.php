@@ -25,7 +25,7 @@ class Scanner
     public function scan(FileList $fileList, $directory)
     {
         if(!(is_dir($directory) && is_readable($directory))) {
-            throw new \Exception(sprintf('Directory `%s` is not readable'));
+            throw new \Exception(sprintf('Directory `%s` is not readable', $directory));
         }
 
         $dir = opendir($directory);
